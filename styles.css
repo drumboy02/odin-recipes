@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(133, 183, 86);
+}
+
+h1 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    background-color: rgb(234, 221, 221);
+    font-weight: 800;
+    border: 2px solid black;
+}
+
+ol {
+    background-color: rgb(171, 88, 88);
+    color: rgb(234, 221, 221);
+    font-weight: 500;
+    border: 2px solid rgb(220, 213, 69)
+}
+
+img {
+    border: 12px solid rgb(220, 213, 69)
+}
