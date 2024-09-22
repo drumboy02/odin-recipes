@@ -22,9 +22,10 @@ ol {
 }
 
 img {
+    display: block;
     border: 8px solid rgb(220, 213, 69);
     padding: 3px 3px;
-    margin: 12px 222px;
+    margin: 12px auto;
 }
 
 ul {
