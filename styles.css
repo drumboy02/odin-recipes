@@ -5,6 +5,7 @@ html {
 h1 {
     font-family: Georgia;
     text-align: center;
+    color: rgb(32 96 192);
 }
 
 p {
@@ -17,9 +18,31 @@ ol {
     background-color: rgb(171, 88, 88);
     color: rgb(234, 221, 221);
     font-weight: 500;
-    border: 2px solid rgb(220, 213, 69)
+    border: 2px solid rgb(220, 213, 69);
 }
 
 img {
-    border: 12px solid rgb(220, 213, 69)
+    border: 8px solid rgb(220, 213, 69);
+    padding: 3px 3px;
+    margin: 12px 222px;
+}
+
+ul {
+    box-sizing: content-box;
+    border: 12px solid rgb(171, 88, 88);
+    background-color: rgb(234, 221, 221);
+    margin: auto 72px;
+    padding: 16px 24px;
+}
+
+ul li {
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(192 96 128);
+    margin: auto 64px;
+    padding: 2px 6px;
+}
+
+header {
+    text-align: center;
 }
