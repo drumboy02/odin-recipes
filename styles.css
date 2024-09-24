@@ -12,6 +12,8 @@ p {
     background-color: rgb(234, 221, 221);
     font-weight: 800;
     border: 2px solid black;
+    margin: 8px;
+    padding: 2px;
 }
 
 ol {
@@ -19,11 +21,14 @@ ol {
     color: rgb(234, 221, 221);
     font-weight: 500;
     border: 2px solid rgb(220, 213, 69);
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 img {
     display: block;
-    border: 8px solid rgb(220, 213, 69);
+    background-color: rgb(220, 213, 69);
+    border: 8px solid #000;
     padding: 3px 3px;
     margin: 12px auto;
 }
@@ -32,8 +37,9 @@ ul {
     box-sizing: content-box;
     border: 12px solid rgb(171, 88, 88);
     background-color: rgb(234, 221, 221);
-    margin: auto 72px;
-    padding: 16px 24px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    max-width: 550px;
 }
 
 ul li {
@@ -41,7 +47,7 @@ ul li {
     text-align: center;
     color: rgb(192 96 128);
     margin: auto 64px;
-    padding: 2px 6px;
+    padding: 4px 6px;
 }
 
 header {
